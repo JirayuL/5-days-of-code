@@ -1,15 +1,8 @@
 $(() => {
-  $('#flee').onmouseover = randomPosition();
+  $('#flee').on('mouseover', () => {
+    var x = Math.random();
+    var y = Math.random();
+    $('#flee').css('top', 'x+"%');
+    $('#flee').css('left', 'y+"%"');
+  });
 })
-
-// $(document).ready(main());
-//
-// function main() {
-//   document.getElementById('flee').onmouseover = randomPosition();
-// }
-
-function randomPosition(e) {
-  var x = Math.random()*100;
-  $('flee').style.top = x+"%";
-  $('flee').style.left = x+"%";
-}
