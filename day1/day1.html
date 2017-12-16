@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>60-days-of-code</title>
+    <link rel="stylesheet" type="text/css" href="day1.css">
+    <!-- <script src="day1.js"></script> -->
+  </head>
+  <body>
+    <div class="block">
+
+    <h1>1.) What is color is <font color="red">THIS</font>?</h1>
+
+    <br>
+    <button class="red" onclick="alert('Correct!')">Red</button>
+    <button class="blue" onclick="alert('Try again!')">Blue</button>
+    <br>
+
+    <h1>2.) 1 + 1 = ?</h1>
+
+    <br>
+    <button class="round">4</button>
+    <button class="round flee" id="flee" onmousemove="randomPosition(event)">2</button>
+
+    <script>
+      function randomPosition(e) {
+        var x = Math.random()*100;
+        document.getElementById("flee").style.top = x+"%";
+        document.getElementById("flee").style.left = x+"%";
+    }
+    </script>
+
+    </div>
+
+  </body>
+</html>
