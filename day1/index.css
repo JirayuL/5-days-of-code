@@ -3,7 +3,12 @@ button{
   font-size: 20px;
   text-align: center;
   padding: 2% 2%;
-  outline: inherit;
+  outline: none;
+}
+
+.ans{
+  color: #000000;
+  text-decoration: none;
 }
 
 .red{

@@ -1,8 +1,9 @@
 $(() => {
   $('#flee').on('mouseover', () => {
-    var x = Math.random();
-    var y = Math.random();
-    $('#flee').css('top', 'x+"%');
-    $('#flee').css('left', 'y+"%"');
+    var x = Math.random()*100;
+    var y = Math.random()*100;
+    $('#flee').css('top', x + '%');
+    // $('#flee').css('top', 'x+"%');
+    $('#flee').css('left', y + '%');
   });
 })
