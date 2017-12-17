@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Day2</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container mt-3">
+
+    <div class="row">
+      <div class="col">
+        <img src="https://i.ytimg.com/vi/Doxj7ACZSe4/hqdefault.jpg" class="img-fluid pull-xs-left" alt="Doge">
+      </div>
+      <div class="col">
+        <h1>Skill Point: <span class="ans" id="skill-point">50</a></h1>
+
+        <div class="row">
+          <div class="col-sm-1">
+            <h4>STR</h4>
+          </div>
+          <div class="col-sm-1"><button id="minus-str">-</button></div>
+          <div class="col-sm-9">
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-danger" id="str-progress" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0</div>
+            </div>
+          </div>
+          <div class="col-sm-1"><button id="plus-str">+</button></div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-1">
+            <h4>DEX</h4>
+          </div>
+          <div class="col-sm-1"><button id="minus-dex">-</button></div>
+          <div class="col-sm-9">
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-success" id="dex-progress" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0</div>
+            </div>
+          </div>
+          <div class="col-sm-1"><button id="plus-dex">+</button></div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-1">
+            <h4>INT</h4>
+          </div>
+          <div class="col-sm-1"><button id="minus-int">-</button></div>
+          <div class="col-sm-9">
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" id="int-progress" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0</div>
+            </div>
+          </div>
+          <div class="col-sm-1"><button id="plus-int">+</button></div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-1">
+            <h4>LUX</h4>
+          </div>
+          <div class="col-sm-1"><button id="minus-lux">-</button></div>
+          <div class="col-sm-9">
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-warning" id="lux-progress" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0</div>
+            </div>
+          </div>
+          <div class="col-sm-1"><button class="plus" id="plus-lux">+</button></div>
+        </div>
+
+        <button type="button" class="btn btn-primary btn-lg btn-block" id="random">Random</button>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
