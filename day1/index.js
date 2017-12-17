@@ -6,4 +6,13 @@ $(() => {
     // $('#flee').css('top', 'x+"%');
     $('#flee').css('left', y + '%');
   });
+  $('#red').on('click', () => {
+    alert('Correct!')
+  });
+  $('#blue').on('click', () => {
+    alert('Try again!')
+  });
+  $('#ans').on('click', () => {
+    alert('Correct!')
+  });
 })
