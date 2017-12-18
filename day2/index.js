@@ -1,9 +1,9 @@
 $(() => {
-  var skillPoint = 50;
-  var str = 0;
-  var dex = 0;
-  var int = 0;
-  var lux = 0;
+  let skillPoint = 50;
+  let str = 0;
+  let dex = 0;
+  let int = 0;
+  let lux = 0;
 
   // STR
   $('#minus-str').on('click', () => {
@@ -75,14 +75,14 @@ $(() => {
 
   $('#random').on('click', () => {
     skillPoint = 50;
-    while (skillPoint != 0) {
-      skillPoint = 50;
-      str = Math.floor((Math.random() * 100) / 2);
-      dex = Math.floor((Math.random() * 100) / 2);
-      int = Math.floor((Math.random() * 100) / 2);
-      lux = Math.floor((Math.random() * 100) / 2);
-      skillPoint -= str + dex + int + lux;
-    }
+    str = Math.floor(Math.random() * skillPoint)
+    skillPoint -= str
+    dex = Math.floor(Math.random() * skillPoint)
+    skillPoint -= dex
+    int = Math.floor(Math.random() * skillPoint)
+    skillPoint -= int
+    lux = skillPoint
+    skillPoint -= lux
     updateComponent(skillPoint, '#str-progress', str);
     updateComponent(skillPoint, '#dex-progress', dex);
     updateComponent(skillPoint, '#int-progress', int);

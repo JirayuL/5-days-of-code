@@ -24,3 +24,4 @@
 1. [Bootstrap Button](https://getbootstrap.com/docs/4.0/components/buttons/)
 2. [Bootstrap Progress Bar](https://getbootstrap.com/docs/4.0/components/progress/)
 3. [Math.floor](https://www.w3schools.com/jsref/jsref_floor.asp)
+4. [let vs. var(in Thai)](https://medium.com/pnpsolution/%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%81%E0%B8%95%E0%B8%81%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B0%E0%B8%AB%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89-let-%E0%B8%81%E0%B8%B1%E0%B8%9A-var-2b622a0732c1)
