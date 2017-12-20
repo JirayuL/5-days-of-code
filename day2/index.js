@@ -88,6 +88,13 @@ $(() => {
     updateComponent(skillPoint, '#int-progress', int);
     updateComponent(skillPoint, '#lux-progress', lux);
   });
+
+  $('#create').on('click', () => {
+    const profile = $('#profile').attr('src');
+    const character = {profile, str, dex, int, lux};
+    const query = $.param(character);
+    window.location = '../day4/index.html?' + query;
+  });
 });
 
 function updateComponent(skillPoint, progress, value) {
