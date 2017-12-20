@@ -46,6 +46,8 @@
 2. [JavaScript Window Location]{https://www.w3schools.com/js/js_window_location.asp}
 3. [JavaScript Array forEach() Method]{https://www.w3schools.com/jsref/jsref_forEach.asp}
 4. [JavaScript decodeURIComponent() Function]{https://www.w3schools.com/jsref/jsref_decodeuricomponent.asp}
+5. [jQuery get the image src]{https://stackoverflow.com/questions/19937162/jquery-get-the-image-src}
+6. [Changing the image source using jQuery]{https://stackoverflow.com/questions/554273/changing-the-image-source-using-jquery}
 
 ## Day 5 : 20/12/2017
 **Today's Progress**: RGB, HSL and HSV
