@@ -46,10 +46,10 @@ function changeColorRGB() {
 }
 
 function changeColorHSLHSV() {
-  let H = $('#H1').val();
-  let S = $('#S1').val();
-  let L = $('#L').val();
-  $('#color').css('background-color', `hsl(${H}, ${S}%, ${L}%)`);
+  let R1 = $('#R').val();
+  let G1 = $('#G').val();
+  let B1 = $('#B').val();
+  $('#color').css('background-color', `rgb(${R1}, ${G1}, ${B1})`);
 }
 
 function deleteLastChar(id) {
