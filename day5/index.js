@@ -118,9 +118,9 @@ function checkRGB(id, input) {
 }
 
 function hsv() {
-  R = hsvToRgb($('#H2').val() / 360, $('#S2').val() / 100, $('#V').val() / 100)[0];
-  G = hsvToRgb($('#H2').val() / 360, $('#S2').val() / 100, $('#V').val() / 100)[1];
-  B = hsvToRgb($('#H2').val() / 360, $('#S2').val() / 100, $('#V').val() / 100)[2];
+  R = parseInt(hsvToRgb($('#H2').val() / 360, $('#S2').val() / 100, $('#V').val() / 100)[0]);
+  G = parseInt(hsvToRgb($('#H2').val() / 360, $('#S2').val() / 100, $('#V').val() / 100)[1]);
+  B = parseInt(hsvToRgb($('#H2').val() / 360, $('#S2').val() / 100, $('#V').val() / 100)[2]);
 
   $('#R').val(R);
   $('#G').val(G);
@@ -134,9 +134,9 @@ function hsv() {
 }
 
 function hsl() {
-  R = hslToRgb($('#H1').val() / 360, $('#S1').val() / 100, $('#L').val() / 100)[0];
-  G = hslToRgb($('#H1').val() / 360, $('#S1').val() / 100, $('#L').val() / 100)[1];
-  B = hslToRgb($('#H1').val() / 360, $('#S1').val() / 100, $('#L').val() / 100)[2];
+  R = parseInt(hslToRgb($('#H1').val() / 360, $('#S1').val() / 100, $('#L').val() / 100)[0]);
+  G = parseInt(hslToRgb($('#H1').val() / 360, $('#S1').val() / 100, $('#L').val() / 100)[1]);
+  B = parseInt(hslToRgb($('#H1').val() / 360, $('#S1').val() / 100, $('#L').val() / 100)[2]);
 
   $('#R').val(R);
   $('#G').val(G);
