@@ -25,3 +25,40 @@
 2. [Bootstrap Progress Bar](https://getbootstrap.com/docs/4.0/components/progress/)
 3. [Math.floor](https://www.w3schools.com/jsref/jsref_floor.asp)
 4. [let vs. var(in Thai)](https://medium.com/pnpsolution/%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%81%E0%B8%95%E0%B8%81%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B0%E0%B8%AB%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89-let-%E0%B8%81%E0%B8%B1%E0%B8%9A-var-2b622a0732c1)
+
+## Day 3 : 18/12/2017
+**Today's Progress**: make a website [atom]{https://atom.io/} like.
+
+**Thoughts** Today goal is to make the website as like as [atom]{https://atom.io/} website.
+
+
+**Link(s) to work**
+1. [atom]{https://atom.io/}
+
+## Day 4 : 19/12/2017
+**Today's Progress**: transfer data through window.location.
+
+**Thoughts** Although this kind of technic is not popular because it not secure but I think it is interesting to try one.
+
+
+**Link(s) to work**
+1. [jQuery param() Method]{https://www.w3schools.com/jquery/ajax_param.asp}
+2. [JavaScript Window Location]{https://www.w3schools.com/js/js_window_location.asp}
+3. [JavaScript Array forEach() Method]{https://www.w3schools.com/jsref/jsref_forEach.asp}
+4. [JavaScript decodeURIComponent() Function]{https://www.w3schools.com/jsref/jsref_decodeuricomponent.asp}
+5. [jQuery get the image src]{https://stackoverflow.com/questions/19937162/jquery-get-the-image-src}
+6. [Changing the image source using jQuery]{https://stackoverflow.com/questions/554273/changing-the-image-source-using-jquery}
+
+## Day 5 : 20/12/2017
+**Today's Progress**: RGB, HSL and HSV
+
+**Thoughts** This is very new for me because I just know that there is HSV format and every format have a different pros and cons.
+
+
+**Link(s) to work**
+1. [Colors]{http://visnup.github.io/hsl/}
+2. [CSS Legal Color Values]{https://www.w3schools.com/cssref/css_colors_legal.asp}
+3. [Colors HSL]{https://www.w3schools.com/colors/colors_hsl.asp}
+4. [Colors HSV]{https://www.thoughtco.com/what-is-hsv-in-design-1078068}
+5. [Detecting input change in jQuery?]{https://stackoverflow.com/questions/6458840/detecting-input-change-in-jquery}
+6. [color-conversion-algorithms.js]{https://gist.github.com/mjackson/5311256}
